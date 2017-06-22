@@ -2,8 +2,8 @@
 
 var fs = require('fs');
 var path = require('path');
-var nodeppt = require('../lib/nodeppt');
-var versions = require('../package').version;
+var nodeppt = require(__dirname + '/../lib/nodePPT');
+var versions = require(__dirname + '/../package').version;
 var program = require('commander');
 var ipv4 = require('ipv4');
 if (process.argv[2] && process.argv[2] === '-v') {
